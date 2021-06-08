@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gradientCardVisualF970A66B74994F6AB9F90CDD237FB527/./style/visual.less"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,iBAAiB;AACnB;AACA;EACE,kBAAkB;EAClB,YAAY;AACd","file":"visual.css","sourcesContent":["p {\n  font-size: 20px;\n  font-weight: bold;\n}\np em {\n  background: yellow;\n  padding: 5px;\n}\n"],"sourceRoot":""}

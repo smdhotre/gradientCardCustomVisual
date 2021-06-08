@@ -1,0 +1,172 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Measure",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "heatbox":{
+            "displayName": "HeatBox Color",
+            "properties": {
+                "fill":{
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color":true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "dataLabel":{
+            "displayName": "Data Label",
+            "properties": {
+                "displayUnits":{
+                    "displayName": "Display Units",
+                    "type": {
+                        "formatting": {
+                            "labelDisplayUnits": true
+                        }
+                    }
+                },
+                "valueDecimalPlaces":{
+                    "displayName": "Value decimal places",
+                    "placeHolderText": "Auto",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "textSize":{
+                    "displayName": "Text Size",
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "fontFamily":{
+                    "displayName": "Font Family",
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                }
+            }
+        },
+        "categoryLabel":{
+            "displayName": "Category Label",
+            "properties": {
+                "show":{
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "color":{
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color":true
+                            }
+                        }
+                    }
+                },
+                "textSize":{
+                    "displayName": "Text Size",
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "fontFamily":{
+                    "displayName": "Font Family",
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                }
+            }
+        },
+        "grad":{
+            "displayName": "Gradient",
+            "properties": {
+                "offset1":{
+                    "displayName": "Offset-1",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color":true
+                            }
+                        }
+                    }
+                },
+                "offset2":{
+                    "displayName": "Offset-2",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color":true
+                            }
+                        }
+                    }
+                },
+                "offset3":{
+                    "displayName": "Offset-3",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color":true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ind":{
+            "displayName": "Arrow Indicator",
+            "properties": {
+                "show":{
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        },
+        "colorSelect":{
+            "displayName": "Arrow Color Select",
+            "properties": {
+                "fill":{
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color":true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "measure": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "measure"
+            }
+        }
+    ]
+}

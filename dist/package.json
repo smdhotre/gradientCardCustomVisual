@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Sonali Mahesh Dhotre","email":"smdhotre123@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/gradientCardVisualF970A66B74994F6AB9F90CDD237FB527.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"gradientCardVisual","displayName":"Gradient Card Visual","guid":"gradientCardVisualF970A66B74994F6AB9F90CDD237FB527","visualClassName":"Visual","version":"1.0.0","description":"Displays a formatted measure value inside a circle","supportUrl":"https://community.powerbi.com","gitHubUrl":"https://github.com/microsoft/PowerBI-visuals-circlecard"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
